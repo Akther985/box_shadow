@@ -1,0 +1,76 @@
+.box_sado{
+  display: flex;
+}
+
+.box{
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  margin: 100px auto;
+  transition: 3s;
+  transform: scale(1.1);
+}
+.box:hover{
+  transform: rotate(45deg);
+
+}
+
+
+.box_1{
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  margin: 100px auto;
+  transition: 3s;
+  
+}
+.box_1:hover{
+transform: scale(1.1);
+}
+.box_2{
+  width: 400px;
+  height: 400px;
+  margin: 100px auto;
+  transition: 3s;
+}
+.box_2:hover{
+  transform: scaleY(1.1);
+
+}
+.box_3{
+  width: 400px;
+  height: 400px;
+  margin: 100px auto;
+  transition: 3s;
+}
+.box_3:hover{
+  transform: scaleX(1.1);
+}
+.box_transfrom{
+  display: flex;
+}
+.tan_box{
+width: 400px;
+  height: 400px;
+  margin: 100px auto;
+  transition: 3s;
+}
+.tan_box:hover{
+  transform: translate(200px);
+}
+.tan_box_1{
+width: 400px;
+  height: 400px;
+  margin: 100px auto;
+  transition: 3s;
+}
+.tan_box_1:hover{
+  transform: translate(-200px);
+}
+.sadow{
+ color: #5C8FC8;
+  margin: 0px;
+  padding: 20px;
+  text-shadow: 1px 2px orange;
+  
+}
